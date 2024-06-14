@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 30px;
+}
+
+/* inputArea */
+.inputArea {
+  background-color: #fff9d0;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#inputText {
+  border-radius: 8px;
+  border: none;
+  padding: 6px 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* 未完了 */
+.incompleteArea {
+  background-color: #caf4ff;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+
+  margin: 10px 0;
+}
+
+li {
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+/* 完了 */
+.completeArea {
+  background-color: #5ab2ff;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}

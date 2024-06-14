@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TODOリスト</title>
+  </head>
+  <body>
+    <h1>TODOリスト!!</h1>
+    <!-- 入力欄 -->
+    <div class="inputArea">
+      <input type="text" id="inputText" placeholder="todoを入力" />
+      <button id="addButton">追加</button>
+    </div>
+
+    <!-- 未完了TOOD -->
+    <div class="incompleteArea">
+      <h2>未完了のTODO</h2>
+      <ul id="incompleteList">
+        <!-- <li>
+          くういつのさんぽ
+          <button id="completeButton">完了</button>
+        </li> -->
+      </ul>
+    </div>
+
+    <!-- 完了TODO -->
+    <div class="completeArea">
+      <h2>完了のTODO</h2>
+      <ul id="completeList">
+        <!-- <li>洗濯する</li> -->
+      </ul>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
